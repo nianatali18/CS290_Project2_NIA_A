@@ -5,42 +5,45 @@ Note: This can be a redesigned version of your first design.  I expect more deta
 
 Create a simple webpage (HTML can be simple, but include enough to show off your CSS styles) that attempts to apply some style from your design to the HTML; 
 
+
+I am just goind to add to the sad website I have already made and attempt to make it look slightly better as it was very rough when I first made it.
+
 Be sure to include at least the following CSS properties:
-- class attribute
+- class attribute DONE 
 
-- class selector
+- class selector DONE 
 
-- id attribute
+- id attribute DONE 
 
-- id selector
+- id selector DONE 
 
-- role attribute
+- role attribute DONE 
 
-- attribute selectors
+- attribute selectors DONE 
 
-- font family
+- font family DONE 
 
-- font size
+- font size DONE 
 
-- font style
+- font style DONE 
 
-- font variant
+- font variant DONE 
 
-- font weight
+- font weight DONE 
 
-- font property shorthand
+- font property shorthand DONE 
 
-- text align
+- text align DONE
 
-- text decoration
+- text decoration DONE 
 
-- line height
+- line height DONE 
 
-- color (in a few ways)
+- color (in a few ways) DONE 
 
-- border and shorthand
+- border and shorthand DONE 
 
-- padding and shorthand
+- padding and shorthand DONE 
 
-- margin and shorthand
+- margin and shorthand DONE
 
