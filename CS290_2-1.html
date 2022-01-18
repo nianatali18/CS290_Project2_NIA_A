@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html lang="en-US"> 
+<!NOTES>
+<!Can be used to show the language>
+<!Can use the inspect feature to find out what went wrong> 
+<!can do multiple headers that are different sizes> 
+<!closing tags not always important but look cleaner>
+<!Try to keep style elements in same order as table attributes>    
+<!shows on website title not on the white screen>
+<! top right bottom left for margin and goes clockwise 20,15,10,5>
+
+<head>
+    <meta charset-"UTF-8">
+    <meta name="setting" content-"Fortune teller similar to 8 ball">
+    <title>Find your fortune</title>
+    <style>
+        *{
+            text-align: left;
+            color: black;
+        }
+        table {
+                
+                background-color:pink; 
+                border: 5px black double;
+                /*border-width: 1px; 
+                border-color: black; 
+                border-style: double;*/
+                padding:1px;
+                margin-top:100px;
+                margin-left: 200px;
+            }
+
+            td{
+                background-color: bisque;
+            }
+            tbody td{
+                background-color: burlywood;
+                color: rgb(237, 0, 154);
+            }
+            tfoot td{
+                color: rgba(255, 0, 238, 0.633);
+            }
+            .first-column{
+                font-weight:bold;
+                font-style:italic;
+                font-variant:small-caps;
+            }
+            .second-column{
+                font: 20px Arial small-caps;
+            }
+            .third-column{
+                font: bold;
+                font-style:italic;
+                font-variant:small-caps;
+            }
+            .fourth-column{
+                font-weight:bold;
+                font-style:italic;
+                font-variant:small-caps;
+            }
+
+        #fortune{
+            color:rgb(171, 97, 109);
+        }
+        h2{
+            text-align: center;
+        }
+        body{
+            background-color: blanchedalmond;
+            text-decoration: underline;
+        }
+        li[class="ftwo"]{
+           color: pink;
+        }
+        li[class="ffour"]{
+           color: pink;
+        }
+        li[class="fsix"]{
+           color: pink;
+        }
+        p.fortu{
+            line-height: 0.5cm;
+        }
+    </style>
+</head>
+
+<img src="ZOLTAR.jpeg" alt="Picture of Zoltar" height="150">zoltar</image>
+<!Does not show on my end, will fix later: Relative path">
+<h2 id="fortune"> Listed below is the number of fortunes</h2>
+<ol>
+    <!li is items in ordered list>
+    <li>fortune 1</li>
+    <ul>
+        <li>You will have a good day</li>
+        <li>Your future is bright</li>
+    </ul>
+    <li class="ftwo">fortune 2</li>
+    <li>fortune 3</li>
+    <li class="ffour">fortune 4</li>
+    <li>fortune 5</li>
+    <li class="fsix">fortune 6</li>
+</ol>
+
+<body>
+<a id ="top" href="#bottom">Go to bottom of page</a>
+<h3>Press the button below to receive a fortune</h3> 
+<p class="fortu">This does not actually give a fortune...yet. But I'm working on it</p>
+<p>I hopefully can make it functional later</p><br>
+<div class="a"> Hello and Goodbye</div>
+<h4>Probably press the button to get a fortune</h4>
+<h5>The secret is that the button doesn't work... :)</h5>
+<button>GET FORTUNE</button>
+<h6>Links to a real fortune teller app</h6>
+<a href="https://astrologyfutureeye.com/fortune-tellers/crystal-ball#report">Fortune Teller Ball</a>
+<!Absolute path>
+
+<h5>Space Video</h5>
+<video width="200" height="250" controls>
+    <source src="SPACE.mp4" type="video/mp4">
+</video>
+
+
+
+<table> 
+    <caption>Table of fortunes</caption> <! Does not matter where it goes as long as in rows> 
+    <thead>
+        <th class="first-column">Fortune 1</th>
+        <th class="second-column">Fortune 2</th>
+        <th class="third-column">Fortune 3</th>
+        <th class="fourth-column">Fortune 4</th>
+    </thead> 
+    <!Grouped together under one header> 
+
+    <tbody> 
+        <tr>
+        <td rowspan="4">You will be rich</td>
+        <td>You will soon travel</td>
+        <td>You will succeed in CS290</td>
+        <td>You will be great</td>
+        </tr> 
+        <! do not copy and paste all rows for border>
+    </tbody>
+    <tbody>
+        <tr> 
+            <td>Lucky numbers 22 30 1 2</td>
+            <td>Lucky numbers 17 4 3 76</td>
+            <td>Lucky numbers 60 8 40 12</td>
+            <td>Lucky numbers 74 31 90 47</td>
+        </tr>
+        <!The widest cell of a column is set by its widest and tallest based on other cells> 
+    </tbody>
+    <tfoot>
+        <td colspan=4>FORTUNES</td>
+        <!colspan only takes up one extra character of transmission> 
+    </tfoot>
+    <!Can contain copy write info or other info> 
+</table>
+<!-- This is how to comment something out-->
+
+</body>
+</html>
